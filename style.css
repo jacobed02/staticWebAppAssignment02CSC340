@@ -1,23 +1,98 @@
-#main{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+#main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-#characters-grid{
+#main h2{
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+
+.character-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.character-item li {
+    position: relative;
+    padding-left: 32px;
+}
+
+.character-item li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 20px;
+    height: 20px;
+    background: url("images/spongebob rock.png") center / contain no-repeat;
+}
+
+#characters-grid {
     padding: 20px;
     display: grid;
     gap: 20px;
 }
-.character-card{
+
+.character-card {
     border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
+    background-image: url(images/bbottom2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: 80%;
 }
-.character-images{
+
+.character-images {
     width: 100%;
-    max-width: 220px;
+    max-width: 133px;
     justify-self: center;
+    background-color: black;
+    border: 2px solid white;
 }
-.character-item{
+
+.character-item {
     border-left: 2px solid black;
     padding: 15px;
+}
+
+.character-item h3,
+ul {
+    background-color: rgb(235, 174, 248);
+    border: 3px solid black;
+    color: black;
+    padding: 2%;
+}
+.character-item h3{
+    text-decoration: underline;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: url("images/spongebob rocks.jpg") center;
+    font-size: 18pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.search-container {
+    margin: 3%;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3%;
+    gap: 25%;
+    padding: 10px 0;
+    align-items: center;
+}
+
+#nav {
+    background-color: rgb(235, 174, 248);
+    margin: 2%;
+    border: 2px solid rgb(191, 0, 234);
 }
