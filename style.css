@@ -4,3 +4,8 @@
     display: grid;
     height: 100%;
 }
+.character-images{
+    height: 34%;
+    width: 34%;
+    justify-content: left;
+}
