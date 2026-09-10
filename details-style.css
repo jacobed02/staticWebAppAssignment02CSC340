@@ -9,7 +9,7 @@
     background-position: center bottom;
     background-repeat: 80%;
     font-size: 300%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #header h1 {
@@ -44,7 +44,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 3%;
     gap: 20%;
-    padding: 10px 0;
+    padding: 0 0;
     align-items: center;
 }
 
