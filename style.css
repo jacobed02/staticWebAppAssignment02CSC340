@@ -5,6 +5,10 @@
 #main h2 {
     margin-left: 2%;
     margin-bottom: 0;
+    font-size: 26pt;
+    border-left: 20px solid black;
+    padding-left: 10px;
+
 }
 
 .character-item ul {
@@ -60,7 +64,7 @@
 
 .character-item h3,
 ul {
-    background-color: rgb(235, 174, 248);
+    background: radial-gradient(rgba(255, 255, 255, 0.2), rgb(235, 174, 248));
     border: 3px solid black;
     color: black;
     padding: 2%;
@@ -76,7 +80,7 @@ ul {
     padding: 45px 20px;
     border: 2px solid black;
     border-radius: 5px;
-    background:linear-gradient(rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), url("images/spongebob rocks.jpg");
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("images/spongebob rocks.jpg");
     background-size: cover;
     background-position: center bottom;
     background-repeat: 80%;

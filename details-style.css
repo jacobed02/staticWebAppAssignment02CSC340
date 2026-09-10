@@ -4,7 +4,7 @@
     padding: 45px 20px;
     border: 2px solid black;
     border-radius: 5px;
-    background: url("images/spongebob rocks.jpg");
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("images/spongebob rocks.jpg");
     background-size: cover;
     background-position: center bottom;
     background-repeat: 80%;
@@ -77,7 +77,7 @@
 .character-info {
     border: 2px solid black;
     padding: 20px;
-    background-color: rgb(235, 174, 248);
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgb(235, 174, 248));
 }
 
 .character-sidebar {
