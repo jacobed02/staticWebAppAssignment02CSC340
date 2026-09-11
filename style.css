@@ -11,6 +11,20 @@
 
 }
 
+.about-page h2 {
+    font-size: 40pt;
+}
+
+#main p {
+    margin: 2%;
+    padding: 2%;
+    border: 3px solid black;
+    background: radial-gradient(rgba(255, 255, 255, 0.2), rgb(235, 174, 248));
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 .character-item ul {
     list-style: none;
     padding-left: 0;
