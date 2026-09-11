@@ -35,6 +35,32 @@
         </div>
     </nav>
     <hr>
+    <main id="main">
+        <h2>Request a New Character</h2>
+        <form id="character-form">
+            <div class="form-field">
+                <label for="character-name">Name</label>
+                <input type="text" id="character-name" name="name" required>
+            </div>
+            <div class="form-field">
+                <label for="character-universe">Universe</label>
+                <input type="text" id="character-universe" name="universe" required>
+            </div>
+            <div class="form-field">
+                <label for="character-role">Role</label>
+                <input type="text" id="character-role" name="role" required>
+            </div>
+            <div class="form-field">
+                <label for="character-image">Image URL</label>
+                <input type="url" id="character-image" name="image-url" placeholder="https://example.com/image.jpg" required>
+            </div>
+            <div class="form-field">
+                <label for="character-description">Short Description</label>
+                <textarea id="character-description" name="description" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Submit Character</button>
+        </form>
+    </main>
 
 </body>
 
